@@ -1,1 +1,118 @@
-# fantastic-lamp
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portal</title>
+  <link rel="stylesheet" href="style.css">
+<style>
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #2f8cb7;
+  padding: 1rem;
+}
+
+header h1 {
+  color: #fff;
+  display: inline;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: inline;
+}
+
+nav li {
+  display: inline;
+  margin-left: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.sidebar {
+   height: 100%;
+   width: 200px;
+   position: fixed;
+   background-color: #f1f1f1;
+   padding-top: 20px;
+}
+
+.sidebar a {
+   padding: 10px 16px;
+   text-decoration: none;
+   font-size: 18px;
+   color: #000;
+   display: block;
+}
+
+.sidebar a:hover {
+   background-color: #ddd;
+   color: #000;
+}
+
+/* Main content */
+main {
+  margin-left: 200px;
+  padding: 15px;
+}
+
+/* Footer */
+footer {
+  background: #2f8cb7;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+</style>
+</head>
+<body>
+  <header>
+    <h1>Student Portal</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="sidebar">
+  <a href="#home">Home</a>
+  <a href="#courses">Courses</a>
+  <a href="#resources">Resources</a>
+  <a href="#profile">Profile</a>
+</div>
+  <main>
+    <section>
+      <h2>Welcome to the Student Portal</h2>
+      <p>Find all the information and resources you need to succeed in your studies.</p>
+    </section>
+    <section>
+      <h2>Upcoming Events</h2>
+      <!-- Add event details here -->
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Student Portal. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
